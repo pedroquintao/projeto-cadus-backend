@@ -45,12 +45,12 @@ npm start
 yarn start
 ```
 
-3. Crie um arquivo `.env` na raiz do projeto e adicione a seguinte linha, substituindo `sua-url-de-conexao-com-o-banco-de-dados` pela URL de conexão do seu banco de dados MongoDB:
+3. Crie um arquivo `.env` na raiz do projeto e adicione a seguinte linha, substituindo `<sua-url-de-conexao-com-o-banco-de-dados>` pela URL de conexão do seu banco de dados MongoDB:
 ```
 DB_CONNECTION_STRING=<sua-url-de-conexao-com-o-banco-de-dados>
 ```
 
-> Observação: Por motivos de segurança, a URL de conexão com o banco de dados está oculta no arquivo `.env`, que deve ser adicionado ao `.gitignore` para não ser versionado no repositório público.
+> Observação: Por motivos de segurança, a URL de conexão com o banco de dados está oculta no arquivo `.env`, que foi adicionado ao `.gitignore` para não ser versionado no repositório público. No fim do README existe maiores informações a respeito disso.
 
 4. Execute o projeto:
 ```
