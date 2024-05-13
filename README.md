@@ -13,7 +13,9 @@ Este é o backend do projeto Genus, desenvolvido para gerenciar as requisições
 - Express.js: Framework Node.js para construção de aplicativos web e APIs.
   - Versão: 4.19.2
 - Nodemon: Utilitário que monitora alterações no código fonte e reinicia automaticamente o servidor.
+  - Versão: 3.1.0
 - Mongoose: Biblioteca MongoDB ODM (Object-Document Mapping) para modelagem de dados.
+  - Versão: 6.6.1
 
 ## Como Executar o Projeto
 
