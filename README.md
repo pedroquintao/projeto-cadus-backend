@@ -16,17 +16,27 @@ Este é o backend do projeto Genus, desenvolvido para gerenciar as requisições
   - Versão: 3.1.0
 - Mongoose: Biblioteca MongoDB ODM (Object-Document Mapping) para modelagem de dados.
   - Versão: 6.6.1
+- Atlas MongoDB: Banco de dados Cloud do MongoDB.
 
 ## Como Executar o Projeto
 
 1. Clone este repositório:
-
 ```
 git clone https://github.com/pedroquintao/projeto-genus-backend.git
 ```
 
-2. Instale as dependências utilizando npm ou yarn:
+2. Instale o NVM (Node Version Manager) (caso não tenha instalado):
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
 
+3. Ative a versão do Node.js especificada no arquivo .nvmrc:
+```
+nvm use
+```
+> Observação: Certifique-se de ter o NVM instalado no seu sistema antes de executar o comando `nvm use`.
+
+4. Instale as dependências utilizando npm ou yarn:
 ```
 npm install
 ```
@@ -35,24 +45,13 @@ npm install
 yarn install
 ```
 
-3. Execute o projeto:
-
-```
-npm start
-```
-  ou
-```
-yarn start
-```
-
-3. Crie um arquivo `.env` na raiz do projeto e adicione a seguinte linha, substituindo `<sua-url-de-conexao-com-o-banco-de-dados>` pela URL de conexão do seu banco de dados MongoDB:
+5. Crie um arquivo `.env` na raiz do projeto e adicione a seguinte linha, substituindo `<sua-url-de-conexao-com-o-banco-de-dados>` pela URL de conexão do seu banco de dados MongoDB:
 ```
 DB_CONNECTION_STRING=<sua-url-de-conexao-com-o-banco-de-dados>
 ```
-
 > Observação: Por motivos de segurança, a URL de conexão com o banco de dados está oculta no arquivo `.env`, que foi adicionado ao `.gitignore` para não ser versionado no repositório público. No fim do README existe maiores informações a respeito disso.
 
-4. Execute o projeto:
+6. Execute o projeto:
 ```
 npm run dev
 ```
@@ -69,3 +68,11 @@ O código fonte do projeto frontend Genus está disponível em [https://github.c
 ## Contato
 
 Para obter a URL de conexão com o banco de dados MongoDB Atlas que utilizei ou para qualquer dúvida relacionada ao projeto, entre em contato pelo e-mail: pedro.h.quintao@hotmail.com.
+
+
+## Uso do arquivo .nvmrc
+
+Este projeto utiliza o arquivo `.nvmrc` para especificar a versão do Node.js que deve ser utilizada. Certifique-se de ter o NVM (Node Version Manager) instalado no seu sistema.
+
+Para ativar automaticamente a versão do Node.js especificada no arquivo `.nvmrc`, basta navegar até o diretório do projeto e executar o comando `nvm use`. Por exemplo:
+
