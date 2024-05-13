@@ -5,18 +5,15 @@ Este é o backend do projeto Genus, desenvolvido para gerenciar as requisições
 ## Tecnologias Utilizadas
 
 - Node.js: Ambiente de execução JavaScript do lado do servidor.
-  - Versão: 20.11.0
+  - [![Node.js](https://img.shields.io/badge/Node.js-20.11.0-green)](https://nodejs.org/)
 - Cors: Middleware Node.js para habilitar o acesso de recursos de origens diferentes.
-  - Versão: 2.8.5
+  - [![Cors](https://img.shields.io/badge/Cors-2.8.5-blue)](https://www.npmjs.com/package/cors)
 - Dotenv: Carrega variáveis de ambiente de um arquivo .env para process.env.
-  - Versão: 16.4.5
+  - [![Dotenv](https://img.shields.io/badge/Dotenv-16.4.5-yellow)](https://www.npmjs.com/package/dotenv)
 - Express.js: Framework Node.js para construção de aplicativos web e APIs.
-  - Versão: 4.19.2
+  - [![Express.js](https://img.shields.io/badge/Express.js-4.19.2-lightgrey)](https://expressjs.com/)
 - Nodemon: Utilitário que monitora alterações no código fonte e reinicia automaticamente o servidor.
-  - Versão: 3.1.0
 - Mongoose: Biblioteca MongoDB ODM (Object-Document Mapping) para modelagem de dados.
-  - Versão: 6.6.1
-- Atlas MongoDB: Banco de dados Cloud do MongoDB.
 
 ## Como Executar o Projeto
 
