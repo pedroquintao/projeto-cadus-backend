@@ -5,13 +5,13 @@ Este é o backend do projeto Genus, desenvolvido para gerenciar as requisições
 ## Tecnologias Utilizadas
 
 - Node.js: Ambiente de execução JavaScript do lado do servidor.
-  - [![Node.js](https://img.shields.io/badge/Node.js-20.11.0-green)](https://nodejs.org/)
+[![Node.js](https://img.shields.io/badge/Node.js-20.11.0-green)](https://nodejs.org/)
 - Cors: Middleware Node.js para habilitar o acesso de recursos de origens diferentes.
-  - [![Cors](https://img.shields.io/badge/Cors-2.8.5-blue)](https://www.npmjs.com/package/cors)
+[![Cors](https://img.shields.io/badge/Cors-2.8.5-blue)](https://www.npmjs.com/package/cors)
 - Dotenv: Carrega variáveis de ambiente de um arquivo .env para process.env.
-  - [![Dotenv](https://img.shields.io/badge/Dotenv-16.4.5-yellow)](https://www.npmjs.com/package/dotenv)
+[![Dotenv](https://img.shields.io/badge/Dotenv-16.4.5-yellow)](https://www.npmjs.com/package/dotenv)
 - Express.js: Framework Node.js para construção de aplicativos web e APIs.
-  - [![Express.js](https://img.shields.io/badge/Express.js-4.19.2-lightgrey)](https://expressjs.com/)
+[![Express.js](https://img.shields.io/badge/Express.js-4.19.2-lightgrey)](https://expressjs.com/)
 - Nodemon: Utilitário que monitora alterações no código fonte e reinicia automaticamente o servidor.
 - Mongoose: Biblioteca MongoDB ODM (Object-Document Mapping) para modelagem de dados.
 
