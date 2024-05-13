@@ -62,6 +62,10 @@ yarn dev
 ```
 O servidor será iniciado na porta localhost:8080.
 
+## Acesso ao Projeto Frontend
+
+O código fonte do projeto frontend Genus está disponível em [https://github.com/pedroquintao/projeto-genus-frontend.git](https://github.com/pedroquintao/projeto-genus-frontend.git).
+
 ## Contato
 
 Para obter a URL de conexão com o banco de dados MongoDB Atlas que utilizei ou para qualquer dúvida relacionada ao projeto, entre em contato pelo e-mail: pedro.h.quintao@hotmail.com.
