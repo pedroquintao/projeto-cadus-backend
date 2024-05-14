@@ -13,7 +13,9 @@ Este é o backend do projeto Genus, desenvolvido para gerenciar as requisições
 - Express.js: Framework Node.js para construção de aplicativos web e APIs.
 [![Express.js](https://img.shields.io/badge/Express.js-4.19.2-lightgrey)](https://expressjs.com/)
 - Nodemon: Utilitário que monitora alterações no código fonte e reinicia automaticamente o servidor.
+[![Nodemon](https://img.shields.io/badge/Nodemon-^2.0.14-blue.svg)](https://nodemon.io/)
 - Mongoose: Biblioteca MongoDB ODM (Object-Document Mapping) para modelagem de dados.
+[![Mongoose](https://img.shields.io/badge/Mongoose-^6.1.9-orange.svg)](https://mongoosejs.com/)
 
 ## Como Executar o Projeto
 
