@@ -27,11 +27,11 @@ git clone https://github.com/pedroquintao/projeto-genus-backend.git
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 ```
 
-3. Ative a versão do Node.js especificada no arquivo .nvmrc:
+3. Instale a versão do Node.JS especificada no arquivo .nvmrc:
 ```
-nvm use
+nvm install
 ```
-> Observação: Certifique-se de ter o NVM instalado no seu sistema antes de executar o comando `nvm use`.
+> Observação: Se você já possuir instalada a versão do Node.JS igual a versão do projeto, quando executar o nvm install a versão atual do seu Node.JS apenas será alterada para a versão que está incluída no arquivo .nvmrc.
 
 4. Instale as dependências utilizando npm ou yarn:
 ```
