@@ -34,6 +34,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 nvm install
 ```
 > Observação: Se você já possuir instalada a versão do Node.JS igual a versão do projeto, quando executar o nvm install a versão atual do seu Node.JS apenas será alterada para a versão que está incluída no arquivo .nvmrc.
+> Para ativar automaticamente a versão do Node.js especificada no arquivo `.nvmrc`, basta navegar até o diretório do projeto e executar o comando `nvm use`. Por exemplo:
 
 4. Instale as dependências utilizando npm ou yarn:
 ```
@@ -69,9 +70,4 @@ O código fonte do projeto frontend Genus está disponível em [https://github.c
 Para obter a URL de conexão com o banco de dados MongoDB Atlas que utilizei ou para qualquer dúvida relacionada ao projeto, entre em contato pelo e-mail: pedro.h.quintao@hotmail.com.
 
 
-## Uso do arquivo .nvmrc
-
-Este projeto utiliza o arquivo `.nvmrc` para especificar a versão do Node.js que deve ser utilizada. Certifique-se de ter o NVM (Node Version Manager) instalado no seu sistema.
-
-Para ativar automaticamente a versão do Node.js especificada no arquivo `.nvmrc`, basta navegar até o diretório do projeto e executar o comando `nvm use`. Por exemplo:
 
